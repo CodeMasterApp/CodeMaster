@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 383527652AB62AE200E2DD12 /* SwiftTerm */; };
+		383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */ = {isa = PBXBuildFile; productRef = 383527672AB62AE200E2DD12 /* SwiftTermFuzz */; };
+		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
+		383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */; };
 		385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 385CD4332AB608340004A323 /* CodeMasterSymbols */; };
 		38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F372AB5F413005AD507 /* CodeMasterApp.swift */; };
 		38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F392AB5F413005AD507 /* ContentView.swift */; };
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3835278F2AB643B500E2DD12 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalEmulatorView.swift; sourceTree = "<group>"; };
 		38F09F342AB5F413005AD507 /* CodeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F09F372AB5F413005AD507 /* CodeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeMasterApp.swift; sourceTree = "<group>"; };
 		38F09F392AB5F413005AD507 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */,
+				383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */,
 				385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,9 +82,308 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383527692AB62B7D00E2DD12 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				38F09F372AB5F413005AD507 /* CodeMasterApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3835276A2AB62C5000E2DD12 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3835276B2AB62C6200E2DD12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3835276C2AB62C7900E2DD12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3835276D2AB62CA500E2DD12 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		3835276E2AB62CC100E2DD12 /* ColorThemes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ColorThemes;
+			sourceTree = "<group>";
+		};
+		3835276F2AB62D0800E2DD12 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3835278A2AB642D700E2DD12 /* WindowCommands */,
+				383527892AB642CB00E2DD12 /* Keybindings */,
+				383527882AB6429000E2DD12 /* WelcomeModule */,
+				383527872AB6428700E2DD12 /* Version Control */,
+				383527862AB6427B00E2DD12 /* Toolbar */,
+				383527852AB6427000E2DD12 /* TerminalEmulator */,
+				383527842AB6426700E2DD12 /* TabBar */,
+				383527832AB6425F00E2DD12 /* StatusBar */,
+				383527822AB6425100E2DD12 /* ShellClient */,
+				383527812AB6424700E2DD12 /* Recents */,
+				383527802AB6423E00E2DD12 /* QuickOpen */,
+				3835277F2AB6423300E2DD12 /* NavigatorSidebar */,
+				3835277E2AB6422A00E2DD12 /* MenuBarItem */,
+				3835277D2AB641C600E2DD12 /* InspectorSidebar */,
+				3835277C2AB641B500E2DD12 /* Git */,
+				3835277B2AB641A900E2DD12 /* FileSystemClient */,
+				3835277A2AB6419D00E2DD12 /* FileCreation */,
+				383527792AB6419300E2DD12 /* Feedback */,
+				383527782AB640EA00E2DD12 /* Extensions */,
+				383527772AB6406700E2DD12 /* Editor */,
+				383527762AB6405C00E2DD12 /* Documents */,
+				383527702AB62D6D00E2DD12 /* About */,
+				383527712AB62D7600E2DD12 /* Acknowledgements */,
+				383527722AB62D9800E2DD12 /* AppPrefrences */,
+				383527732AB62DC000E2DD12 /* CodeMasterEditorUI */,
+				383527742AB637DA00E2DD12 /* CommandPalette */,
+				383527752AB63FCC00E2DD12 /* Crashlytics */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		383527702AB62D6D00E2DD12 /* About */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		383527712AB62D7600E2DD12 /* Acknowledgements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Acknowledgements;
+			sourceTree = "<group>";
+		};
+		383527722AB62D9800E2DD12 /* AppPrefrences */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppPrefrences;
+			sourceTree = "<group>";
+		};
+		383527732AB62DC000E2DD12 /* CodeMasterEditorUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeMasterEditorUI;
+			sourceTree = "<group>";
+		};
+		383527742AB637DA00E2DD12 /* CommandPalette */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommandPalette;
+			sourceTree = "<group>";
+		};
+		383527752AB63FCC00E2DD12 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		383527762AB6405C00E2DD12 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		383527772AB6406700E2DD12 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		383527782AB640EA00E2DD12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		383527792AB6419300E2DD12 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		3835277A2AB6419D00E2DD12 /* FileCreation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FileCreation;
+			sourceTree = "<group>";
+		};
+		3835277B2AB641A900E2DD12 /* FileSystemClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FileSystemClient;
+			sourceTree = "<group>";
+		};
+		3835277C2AB641B500E2DD12 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Git;
+			sourceTree = "<group>";
+		};
+		3835277D2AB641C600E2DD12 /* InspectorSidebar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InspectorSidebar;
+			sourceTree = "<group>";
+		};
+		3835277E2AB6422A00E2DD12 /* MenuBarItem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MenuBarItem;
+			sourceTree = "<group>";
+		};
+		3835277F2AB6423300E2DD12 /* NavigatorSidebar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigatorSidebar;
+			sourceTree = "<group>";
+		};
+		383527802AB6423E00E2DD12 /* QuickOpen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QuickOpen;
+			sourceTree = "<group>";
+		};
+		383527812AB6424700E2DD12 /* Recents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recents;
+			sourceTree = "<group>";
+		};
+		383527822AB6425100E2DD12 /* ShellClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShellClient;
+			sourceTree = "<group>";
+		};
+		383527832AB6425F00E2DD12 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		383527842AB6426700E2DD12 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		383527852AB6427000E2DD12 /* TerminalEmulator */ = {
+			isa = PBXGroup;
+			children = (
+				383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */,
+			);
+			path = TerminalEmulator;
+			sourceTree = "<group>";
+		};
+		383527862AB6427B00E2DD12 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		383527872AB6428700E2DD12 /* Version Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Version Control";
+			sourceTree = "<group>";
+		};
+		383527882AB6429000E2DD12 /* WelcomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WelcomeModule;
+			sourceTree = "<group>";
+		};
+		383527892AB642CB00E2DD12 /* Keybindings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Keybindings;
+			sourceTree = "<group>";
+		};
+		3835278A2AB642D700E2DD12 /* WindowCommands */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WindowCommands;
+			sourceTree = "<group>";
+		};
+		3835278B2AB6431900E2DD12 /* ShellIntegration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShellIntegration;
+			sourceTree = "<group>";
+		};
+		3835278C2AB6438B00E2DD12 /* AppCast */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppCast;
+			sourceTree = "<group>";
+		};
+		3835278D2AB6439900E2DD12 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		3835278E2AB643A200E2DD12 /* OpenWithCodeEdit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenWithCodeEdit;
+			sourceTree = "<group>";
+		};
 		38F09F2B2AB5F413005AD507 = {
 			isa = PBXGroup;
 			children = (
+				3835278F2AB643B500E2DD12 /* Documentation.docc */,
+				3835278E2AB643A200E2DD12 /* OpenWithCodeEdit */,
+				3835278D2AB6439900E2DD12 /* Configs */,
+				3835278C2AB6438B00E2DD12 /* AppCast */,
 				38F09F362AB5F413005AD507 /* CodeMaster */,
 				38F09F482AB5F416005AD507 /* CodeMasterTests */,
 				38F09F522AB5F416005AD507 /* CodeMasterUITests */,
@@ -97,7 +404,14 @@
 		38F09F362AB5F413005AD507 /* CodeMaster */ = {
 			isa = PBXGroup;
 			children = (
-				38F09F372AB5F413005AD507 /* CodeMasterApp.swift */,
+				3835278B2AB6431900E2DD12 /* ShellIntegration */,
+				383527692AB62B7D00E2DD12 /* Application */,
+				3835276F2AB62D0800E2DD12 /* Base */,
+				3835276E2AB62CC100E2DD12 /* ColorThemes */,
+				3835276D2AB62CA500E2DD12 /* Localization */,
+				3835276C2AB62C7900E2DD12 /* Resources */,
+				3835276B2AB62C6200E2DD12 /* Services */,
+				3835276A2AB62C5000E2DD12 /* Utils */,
 				38F09F392AB5F413005AD507 /* ContentView.swift */,
 				38F09F3B2AB5F416005AD507 /* Assets.xcassets */,
 				38F09F402AB5F416005AD507 /* CodeMaster.entitlements */,
@@ -149,6 +463,8 @@
 			name = CodeMaster;
 			packageProductDependencies = (
 				385CD4332AB608340004A323 /* CodeMasterSymbols */,
+				383527652AB62AE200E2DD12 /* SwiftTerm */,
+				383527672AB62AE200E2DD12 /* SwiftTermFuzz */,
 			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
@@ -224,6 +540,7 @@
 			mainGroup = 38F09F2B2AB5F413005AD507;
 			packageReferences = (
 				385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */,
+				383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */,
 			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
@@ -268,6 +585,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */,
+				383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */,
+				383527902AB643B500E2DD12 /* Documentation.docc in Sources */,
 				38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +910,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/migueldeicaza/SwiftTerm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.5;
+			};
+		};
 		385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CodeMasterApp/CodeMasterSymbols";
@@ -602,6 +929,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		383527652AB62AE200E2DD12 /* SwiftTerm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */;
+			productName = SwiftTerm;
+		};
+		383527672AB62AE200E2DD12 /* SwiftTermFuzz */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */;
+			productName = SwiftTermFuzz;
+		};
 		385CD4332AB608340004A323 /* CodeMasterSymbols */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */;
