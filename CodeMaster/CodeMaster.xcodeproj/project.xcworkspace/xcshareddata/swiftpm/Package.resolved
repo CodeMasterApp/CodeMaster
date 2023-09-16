@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "codemastersymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CodeMasterApp/CodeMasterSymbols",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a3fe02c850ebc93e7e9709feaac4725c606d3a9d"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 385CD4332AB608340004A323 /* CodeMasterSymbols */; };
 		38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F372AB5F413005AD507 /* CodeMasterApp.swift */; };
 		38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F392AB5F413005AD507 /* ContentView.swift */; };
 		38F09F3C2AB5F416005AD507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F09F3B2AB5F416005AD507 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +147,9 @@
 			dependencies = (
 			);
 			name = CodeMaster;
+			packageProductDependencies = (
+				385CD4332AB608340004A323 /* CodeMasterSymbols */,
+			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 38F09F2B2AB5F413005AD507;
+			packageReferences = (
+				385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */,
+			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -581,6 +589,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeMasterApp/CodeMasterSymbols";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		385CD4332AB608340004A323 /* CodeMasterSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */;
+			productName = CodeMasterSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 38F09F2C2AB5F413005AD507 /* Project object */;
 }
