@@ -18,6 +18,8 @@
 		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
 		383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */; };
 		385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 385CD4332AB608340004A323 /* CodeMasterSymbols */; };
+		38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */ = {isa = PBXBuildFile; productRef = 38B1D00E2AB772F30088A744 /* WindowManagement */; };
+		38B1D0122AB773750088A744 /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 38B1D0112AB773750088A744 /* AnyCodable */; };
 		38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F372AB5F413005AD507 /* CodeMasterApp.swift */; };
 		38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F392AB5F413005AD507 /* ContentView.swift */; };
 		38F09F3C2AB5F416005AD507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F09F3B2AB5F416005AD507 /* Assets.xcassets */; };
@@ -105,6 +107,8 @@
 				383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */,
 				383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */,
 				385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */,
+				38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */,
+				38B1D0122AB773750088A744 /* AnyCodable in Frameworks */,
 				381045C52AB73A9700432F68 /* CodeMaster-Version-Control-Kit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +542,8 @@
 				383527652AB62AE200E2DD12 /* SwiftTerm */,
 				383527672AB62AE200E2DD12 /* SwiftTermFuzz */,
 				381045C42AB73A9700432F68 /* CodeMaster-Version-Control-Kit */,
+				38B1D00E2AB772F30088A744 /* WindowManagement */,
+				38B1D0112AB773750088A744 /* AnyCodable */,
 			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
@@ -618,6 +624,8 @@
 				385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */,
 				383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */,
 				381045C32AB73A9700432F68 /* XCRemoteSwiftPackageReference "CodeMaster-Version-Control-Kit" */,
+				38B1D00D2AB772F30088A744 /* XCRemoteSwiftPackageReference "SwiftUI-WindowManagement" */,
+				38B1D0102AB773750088A744 /* XCRemoteSwiftPackageReference "AnyCodable" */,
 			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
@@ -1100,6 +1108,22 @@
 				kind = branch;
 			};
 		};
+		38B1D00D2AB772F30088A744 /* XCRemoteSwiftPackageReference "SwiftUI-WindowManagement" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter01/SwiftUI-WindowManagement/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		38B1D0102AB773750088A744 /* XCRemoteSwiftPackageReference "AnyCodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flight-School/AnyCodable/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1122,6 +1146,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */;
 			productName = CodeMasterSymbols;
+		};
+		38B1D00E2AB772F30088A744 /* WindowManagement */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38B1D00D2AB772F30088A744 /* XCRemoteSwiftPackageReference "SwiftUI-WindowManagement" */;
+			productName = WindowManagement;
+		};
+		38B1D0112AB773750088A744 /* AnyCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38B1D0102AB773750088A744 /* XCRemoteSwiftPackageReference "AnyCodable" */;
+			productName = AnyCodable;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
