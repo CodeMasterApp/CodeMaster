@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Logo" height="128">
+  <img src="CodeMaster/CodeMaster/Assets.xcassets/AppIcon.appiconset/Flare.png" alt="Logo" height="128">
   <h1 align="center">CodeMaster for macOS</h1>
 </p>
 
