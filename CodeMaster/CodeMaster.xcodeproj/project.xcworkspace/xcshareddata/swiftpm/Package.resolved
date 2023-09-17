@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "codemaster-version-control-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CodeMasterApp/CodeMaster-Version-Control-Kit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "dd574646efe16693d80d92976b248cc443c55d8b"
+      }
+    },
+    {
       "identity" : "codemastersymbols",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CodeMasterApp/CodeMasterSymbols",

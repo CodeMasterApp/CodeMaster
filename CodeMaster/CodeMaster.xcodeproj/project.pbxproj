@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381045C52AB73A9700432F68 /* CodeMaster-Version-Control-Kit in Frameworks */ = {isa = PBXBuildFile; productRef = 381045C42AB73A9700432F68 /* CodeMaster-Version-Control-Kit */; };
+		381045E02AB73BDE00432F68 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381045DF2AB73BDE00432F68 /* FinderSync.swift */; };
+		381045E52AB73BDE00432F68 /* OpenWithCodeMaster.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 381045DD2AB73BDE00432F68 /* OpenWithCodeMaster.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		381045EA2AB73C0700432F68 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381045E92AB73C0700432F68 /* Media.xcassets */; };
 		383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 383527652AB62AE200E2DD12 /* SwiftTerm */; };
 		383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */ = {isa = PBXBuildFile; productRef = 383527672AB62AE200E2DD12 /* SwiftTermFuzz */; };
 		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
@@ -22,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		381045E32AB73BDE00432F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38F09F2C2AB5F413005AD507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381045DC2AB73BDE00432F68;
+			remoteInfo = OpenWithCodeMaster;
+		};
 		38F09F462AB5F416005AD507 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38F09F2C2AB5F413005AD507 /* Project object */;
@@ -38,7 +49,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		381045D82AB73B9900432F68 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				381045E52AB73BDE00432F68 /* OpenWithCodeMaster.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		381045DD2AB73BDE00432F68 /* OpenWithCodeMaster.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OpenWithCodeMaster.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		381045DF2AB73BDE00432F68 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		381045E12AB73BDE00432F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381045E22AB73BDE00432F68 /* OpenWithCodeMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenWithCodeMaster.entitlements; sourceTree = "<group>"; };
+		381045E92AB73C0700432F68 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		3835278F2AB643B500E2DD12 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalEmulatorView.swift; sourceTree = "<group>"; };
 		38F09F342AB5F413005AD507 /* CodeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +85,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		381045DA2AB73BDE00432F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38F09F312AB5F413005AD507 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +99,7 @@
 				383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */,
 				383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */,
 				385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */,
+				381045C52AB73A9700432F68 /* CodeMaster-Version-Control-Kit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +120,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		381045DE2AB73BDE00432F68 /* OpenWithCodeMaster */ = {
+			isa = PBXGroup;
+			children = (
+				381045DF2AB73BDE00432F68 /* FinderSync.swift */,
+				381045E12AB73BDE00432F68 /* Info.plist */,
+				381045E22AB73BDE00432F68 /* OpenWithCodeMaster.entitlements */,
+				381045E92AB73C0700432F68 /* Media.xcassets */,
+			);
+			path = OpenWithCodeMaster;
+			sourceTree = "<group>";
+		};
 		383527692AB62B7D00E2DD12 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,23 +419,16 @@
 			path = Configs;
 			sourceTree = "<group>";
 		};
-		3835278E2AB643A200E2DD12 /* OpenWithCodeEdit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = OpenWithCodeEdit;
-			sourceTree = "<group>";
-		};
 		38F09F2B2AB5F413005AD507 = {
 			isa = PBXGroup;
 			children = (
 				3835278F2AB643B500E2DD12 /* Documentation.docc */,
-				3835278E2AB643A200E2DD12 /* OpenWithCodeEdit */,
 				3835278D2AB6439900E2DD12 /* Configs */,
 				3835278C2AB6438B00E2DD12 /* AppCast */,
 				38F09F362AB5F413005AD507 /* CodeMaster */,
 				38F09F482AB5F416005AD507 /* CodeMasterTests */,
 				38F09F522AB5F416005AD507 /* CodeMasterUITests */,
+				381045DE2AB73BDE00432F68 /* OpenWithCodeMaster */,
 				38F09F352AB5F413005AD507 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -397,6 +439,7 @@
 				38F09F342AB5F413005AD507 /* CodeMaster.app */,
 				38F09F452AB5F416005AD507 /* CodeMasterTests.xctest */,
 				38F09F4F2AB5F416005AD507 /* CodeMasterUITests.xctest */,
+				381045DD2AB73BDE00432F68 /* OpenWithCodeMaster.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -448,6 +491,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		381045DC2AB73BDE00432F68 /* OpenWithCodeMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381045E62AB73BDE00432F68 /* Build configuration list for PBXNativeTarget "OpenWithCodeMaster" */;
+			buildPhases = (
+				381045D92AB73BDE00432F68 /* Sources */,
+				381045DA2AB73BDE00432F68 /* Frameworks */,
+				381045DB2AB73BDE00432F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenWithCodeMaster;
+			productName = OpenWithCodeMaster;
+			productReference = 381045DD2AB73BDE00432F68 /* OpenWithCodeMaster.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		38F09F332AB5F413005AD507 /* CodeMaster */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F09F592AB5F416005AD507 /* Build configuration list for PBXNativeTarget "CodeMaster" */;
@@ -455,16 +515,19 @@
 				38F09F302AB5F413005AD507 /* Sources */,
 				38F09F312AB5F413005AD507 /* Frameworks */,
 				38F09F322AB5F413005AD507 /* Resources */,
+				381045D82AB73B9900432F68 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				381045E42AB73BDE00432F68 /* PBXTargetDependency */,
 			);
 			name = CodeMaster;
 			packageProductDependencies = (
 				385CD4332AB608340004A323 /* CodeMasterSymbols */,
 				383527652AB62AE200E2DD12 /* SwiftTerm */,
 				383527672AB62AE200E2DD12 /* SwiftTermFuzz */,
+				381045C42AB73A9700432F68 /* CodeMaster-Version-Control-Kit */,
 			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
@@ -516,6 +579,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					381045DC2AB73BDE00432F68 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					38F09F332AB5F413005AD507 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -541,6 +607,7 @@
 			packageReferences = (
 				385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */,
 				383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */,
+				381045C32AB73A9700432F68 /* XCRemoteSwiftPackageReference "CodeMaster-Version-Control-Kit" */,
 			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
@@ -549,11 +616,20 @@
 				38F09F332AB5F413005AD507 /* CodeMaster */,
 				38F09F442AB5F416005AD507 /* CodeMasterTests */,
 				38F09F4E2AB5F416005AD507 /* CodeMasterUITests */,
+				381045DC2AB73BDE00432F68 /* OpenWithCodeMaster */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		381045DB2AB73BDE00432F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381045EA2AB73C0700432F68 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38F09F322AB5F413005AD507 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -580,6 +656,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		381045D92AB73BDE00432F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381045E02AB73BDE00432F68 /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38F09F302AB5F413005AD507 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -611,6 +695,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		381045E42AB73BDE00432F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381045DC2AB73BDE00432F68 /* OpenWithCodeMaster */;
+			targetProxy = 381045E32AB73BDE00432F68 /* PBXContainerItemProxy */;
+		};
 		38F09F472AB5F416005AD507 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 38F09F332AB5F413005AD507 /* CodeMaster */;
@@ -624,6 +713,60 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		381045E72AB73BDE00432F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OpenWithCodeMaster/OpenWithCodeMaster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenWithCodeMaster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenWithCodeMaster;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.CodeMaster.OpenWithCodeMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		381045E82AB73BDE00432F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OpenWithCodeMaster/OpenWithCodeMaster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenWithCodeMaster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenWithCodeMaster;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.CodeMaster.OpenWithCodeMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		38F09F572AB5F416005AD507 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -745,6 +888,7 @@
 		38F09F5A2AB5F416005AD507 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CodeMaster/CodeMaster.entitlements;
@@ -772,6 +916,7 @@
 		38F09F5B2AB5F416005AD507 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CodeMaster/CodeMaster.entitlements;
@@ -871,6 +1016,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		381045E62AB73BDE00432F68 /* Build configuration list for PBXNativeTarget "OpenWithCodeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381045E72AB73BDE00432F68 /* Debug */,
+				381045E82AB73BDE00432F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		38F09F2F2AB5F413005AD507 /* Build configuration list for PBXProject "CodeMaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -910,6 +1064,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		381045C32AB73A9700432F68 /* XCRemoteSwiftPackageReference "CodeMaster-Version-Control-Kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeMasterApp/CodeMaster-Version-Control-Kit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/migueldeicaza/SwiftTerm.git";
@@ -929,6 +1091,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		381045C42AB73A9700432F68 /* CodeMaster-Version-Control-Kit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 381045C32AB73A9700432F68 /* XCRemoteSwiftPackageReference "CodeMaster-Version-Control-Kit" */;
+			productName = "CodeMaster-Version-Control-Kit";
+		};
 		383527652AB62AE200E2DD12 /* SwiftTerm */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */;
