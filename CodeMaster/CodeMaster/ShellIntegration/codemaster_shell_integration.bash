@@ -3,7 +3,7 @@
 #  codemaster_shell_intergration.bash
 #  CodeMaster
 #
-#  Created by Nevio Hirani "N3v1" (@N3v1) on 2023-09-17.
+#  Created by NH "N3v1" (@N3v1) on 2023-09-17.
 #
 #  This script is used to configure bash shells
 #  so the terminal title would be setted properly
