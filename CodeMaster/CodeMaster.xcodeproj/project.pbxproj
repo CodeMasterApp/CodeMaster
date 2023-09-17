@@ -13,6 +13,10 @@
 		381045EA2AB73C0700432F68 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381045E92AB73C0700432F68 /* Media.xcassets */; };
 		381045EC2AB7458F00432F68 /* Alpha.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 381045EB2AB7458F00432F68 /* Alpha.xcconfig */; };
 		381045EE2AB745BC00432F68 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 381045ED2AB745BC00432F68 /* Beta.xcconfig */; };
+		3833AB9A2AB77D2000D806C6 /* ShellClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3833AB992AB77D2000D806C6 /* ShellClient.swift */; };
+		3833AB9D2AB77DA200D806C6 /* Glob in Frameworks */ = {isa = PBXBuildFile; productRef = 3833AB9C2AB77DA200D806C6 /* Glob */; };
+		3833ABA02AB77E2400D806C6 /* InlineSnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 3833AB9F2AB77E2400D806C6 /* InlineSnapshotTesting */; };
+		3833ABA22AB77E2400D806C6 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 3833ABA12AB77E2400D806C6 /* SnapshotTesting */; };
 		383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 383527652AB62AE200E2DD12 /* SwiftTerm */; };
 		383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */ = {isa = PBXBuildFile; productRef = 383527672AB62AE200E2DD12 /* SwiftTermFuzz */; };
 		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
@@ -83,6 +87,7 @@
 		381045ED2AB745BC00432F68 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
 		381045EF2AB745E100432F68 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		381045F02AB7460F00432F68 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		3833AB992AB77D2000D806C6 /* ShellClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellClient.swift; sourceTree = "<group>"; };
 		3835278F2AB643B500E2DD12 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalEmulatorView.swift; sourceTree = "<group>"; };
 		38B1D0142AB774BB0088A744 /* WelcomeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindow.swift; sourceTree = "<group>"; };
@@ -117,9 +122,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */,
+				3833AB9D2AB77DA200D806C6 /* Glob in Frameworks */,
+				3833ABA02AB77E2400D806C6 /* InlineSnapshotTesting in Frameworks */,
 				383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */,
 				385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */,
 				38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */,
+				3833ABA22AB77E2400D806C6 /* SnapshotTesting in Frameworks */,
 				38B1D0122AB773750088A744 /* AnyCodable in Frameworks */,
 				381045C52AB73A9700432F68 /* CodeMaster-Version-Control-Kit in Frameworks */,
 			);
@@ -153,9 +161,26 @@
 			path = OpenWithCodeMaster;
 			sourceTree = "<group>";
 		};
+		3833AB972AB77D0F00D806C6 /* ShellClient */ = {
+			isa = PBXGroup;
+			children = (
+				3833AB982AB77D1600D806C6 /* Models */,
+			);
+			path = ShellClient;
+			sourceTree = "<group>";
+		};
+		3833AB982AB77D1600D806C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3833AB992AB77D2000D806C6 /* ShellClient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3835276A2AB62C5000E2DD12 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3833AB972AB77D0F00D806C6 /* ShellClient */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -562,6 +587,9 @@
 				381045C42AB73A9700432F68 /* CodeMaster-Version-Control-Kit */,
 				38B1D00E2AB772F30088A744 /* WindowManagement */,
 				38B1D0112AB773750088A744 /* AnyCodable */,
+				3833AB9C2AB77DA200D806C6 /* Glob */,
+				3833AB9F2AB77E2400D806C6 /* InlineSnapshotTesting */,
+				3833ABA12AB77E2400D806C6 /* SnapshotTesting */,
 			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
@@ -644,6 +672,8 @@
 				381045C32AB73A9700432F68 /* XCRemoteSwiftPackageReference "CodeMaster-Version-Control-Kit" */,
 				38B1D00D2AB772F30088A744 /* XCRemoteSwiftPackageReference "SwiftUI-WindowManagement" */,
 				38B1D0102AB773750088A744 /* XCRemoteSwiftPackageReference "AnyCodable" */,
+				3833AB9B2AB77DA200D806C6 /* XCRemoteSwiftPackageReference "Glob" */,
+				3833AB9E2AB77E2400D806C6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
@@ -710,6 +740,7 @@
 				38B1D0172AB774D10088A744 /* WelcomeWindowView.swift in Sources */,
 				383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */,
 				383527902AB643B500E2DD12 /* Documentation.docc in Sources */,
+				3833AB9A2AB77D2000D806C6 /* ShellClient.swift in Sources */,
 				38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */,
 				38B1D01F2AB7752E0088A744 /* RecentProjectItem.swift in Sources */,
 				38B1D0152AB774BB0088A744 /* WelcomeWindow.swift in Sources */,
@@ -1116,6 +1147,22 @@
 				kind = branch;
 			};
 		};
+		3833AB9B2AB77DA200D806C6 /* XCRemoteSwiftPackageReference "Glob" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Bouke/Glob/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+		3833AB9E2AB77E2400D806C6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.13.0;
+			};
+		};
 		383527642AB62AE200E2DD12 /* XCRemoteSwiftPackageReference "SwiftTerm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/migueldeicaza/SwiftTerm.git";
@@ -1155,6 +1202,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 381045C32AB73A9700432F68 /* XCRemoteSwiftPackageReference "CodeMaster-Version-Control-Kit" */;
 			productName = "CodeMaster-Version-Control-Kit";
+		};
+		3833AB9C2AB77DA200D806C6 /* Glob */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3833AB9B2AB77DA200D806C6 /* XCRemoteSwiftPackageReference "Glob" */;
+			productName = Glob;
+		};
+		3833AB9F2AB77E2400D806C6 /* InlineSnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3833AB9E2AB77E2400D806C6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = InlineSnapshotTesting;
+		};
+		3833ABA12AB77E2400D806C6 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3833AB9E2AB77E2400D806C6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
 		};
 		383527652AB62AE200E2DD12 /* SwiftTerm */ = {
 			isa = XCSwiftPackageProductDependency;
