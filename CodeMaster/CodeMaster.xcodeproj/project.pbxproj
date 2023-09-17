@@ -153,14 +153,6 @@
 			path = OpenWithCodeMaster;
 			sourceTree = "<group>";
 		};
-		383527692AB62B7D00E2DD12 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				38F09F372AB5F413005AD507 /* CodeMasterApp.swift */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
 		3835276A2AB62C5000E2DD12 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,13 +480,13 @@
 			isa = PBXGroup;
 			children = (
 				3835278B2AB6431900E2DD12 /* ShellIntegration */,
-				383527692AB62B7D00E2DD12 /* Application */,
 				3835276F2AB62D0800E2DD12 /* Features */,
 				3835276E2AB62CC100E2DD12 /* ColorThemes */,
 				3835276D2AB62CA500E2DD12 /* Localization */,
 				3835276C2AB62C7900E2DD12 /* Resources */,
 				3835276B2AB62C6200E2DD12 /* Services */,
 				3835276A2AB62C5000E2DD12 /* Utils */,
+				38F09F372AB5F413005AD507 /* CodeMasterApp.swift */,
 				38F09F392AB5F413005AD507 /* ContentView.swift */,
 				38F09F3B2AB5F416005AD507 /* Assets.xcassets */,
 				38F09F402AB5F416005AD507 /* CodeMaster.entitlements */,
