@@ -11,6 +11,8 @@
 		381045E02AB73BDE00432F68 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381045DF2AB73BDE00432F68 /* FinderSync.swift */; };
 		381045E52AB73BDE00432F68 /* OpenWithCodeMaster.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 381045DD2AB73BDE00432F68 /* OpenWithCodeMaster.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		381045EA2AB73C0700432F68 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381045E92AB73C0700432F68 /* Media.xcassets */; };
+		381045EC2AB7458F00432F68 /* Alpha.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 381045EB2AB7458F00432F68 /* Alpha.xcconfig */; };
+		381045EE2AB745BC00432F68 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 381045ED2AB745BC00432F68 /* Beta.xcconfig */; };
 		383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 383527652AB62AE200E2DD12 /* SwiftTerm */; };
 		383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */ = {isa = PBXBuildFile; productRef = 383527672AB62AE200E2DD12 /* SwiftTermFuzz */; };
 		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
@@ -69,6 +71,10 @@
 		381045E12AB73BDE00432F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381045E22AB73BDE00432F68 /* OpenWithCodeMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenWithCodeMaster.entitlements; sourceTree = "<group>"; };
 		381045E92AB73C0700432F68 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		381045EB2AB7458F00432F68 /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
+		381045ED2AB745BC00432F68 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
+		381045EF2AB745E100432F68 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		381045F02AB7460F00432F68 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		3835278F2AB643B500E2DD12 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalEmulatorView.swift; sourceTree = "<group>"; };
 		38F09F342AB5F413005AD507 /* CodeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -415,6 +421,10 @@
 		3835278D2AB6439900E2DD12 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
+				381045EB2AB7458F00432F68 /* Alpha.xcconfig */,
+				381045ED2AB745BC00432F68 /* Beta.xcconfig */,
+				381045EF2AB745E100432F68 /* Debug.xcconfig */,
+				381045F02AB7460F00432F68 /* Release.xcconfig */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -634,6 +644,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381045EE2AB745BC00432F68 /* Beta.xcconfig in Resources */,
+				381045EC2AB7458F00432F68 /* Alpha.xcconfig in Resources */,
 				38F09F3F2AB5F416005AD507 /* Preview Assets.xcassets in Resources */,
 				38F09F3C2AB5F416005AD507 /* Assets.xcassets in Resources */,
 			);

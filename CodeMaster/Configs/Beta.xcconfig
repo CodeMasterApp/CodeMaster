@@ -1,0 +1,13 @@
+//
+//  Beta.xcconfig
+//  CodeMaster
+//
+//  Created by Nevio Hirani on 17.09.23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CE_APPICON_NAME = AppIconBeta
+CE_VERSION_POSTFIX = -beta
+CE_COPYRIGHT = Copyright © 2023-2024 CodeMaster
