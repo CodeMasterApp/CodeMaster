@@ -22,6 +22,7 @@
 		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
 		383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */; };
 		385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 385CD4332AB608340004A323 /* CodeMasterSymbols */; };
+		3896C82F2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3896C82E2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift */; };
 		38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */ = {isa = PBXBuildFile; productRef = 38B1D00E2AB772F30088A744 /* WindowManagement */; };
 		38B1D0122AB773750088A744 /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 38B1D0112AB773750088A744 /* AnyCodable */; };
 		38B1D0152AB774BB0088A744 /* WelcomeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D0142AB774BB0088A744 /* WelcomeWindow.swift */; };
@@ -90,6 +91,7 @@
 		3833AB992AB77D2000D806C6 /* ShellClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellClient.swift; sourceTree = "<group>"; };
 		3835278F2AB643B500E2DD12 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalEmulatorView.swift; sourceTree = "<group>"; };
+		3896C82E2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TerminalEmulatorView+Coordinator.swift"; sourceTree = "<group>"; };
 		38B1D0142AB774BB0088A744 /* WelcomeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindow.swift; sourceTree = "<group>"; };
 		38B1D0162AB774D10088A744 /* WelcomeWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindowView.swift; sourceTree = "<group>"; };
 		38B1D0182AB774DC0088A744 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -398,6 +400,7 @@
 			isa = PBXGroup;
 			children = (
 				383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */,
+				3896C82E2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift */,
 			);
 			path = TerminalEmulator;
 			sourceTree = "<group>";
@@ -736,6 +739,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3896C82F2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift in Sources */,
 				38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */,
 				38B1D0172AB774D10088A744 /* WelcomeWindowView.swift in Sources */,
 				383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */,

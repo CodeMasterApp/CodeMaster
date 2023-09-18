@@ -7,3 +7,9 @@
 
 import SwiftUI
 import SwiftTerm
+
+/// # TerminalEmulatorView
+///
+/// A terminal emulator view.
+///
+///
