@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Logo" height="128">
+  <img src="CodeMaster/CodeMaster/Assets.xcassets/AppIcon.appiconset/Flare.png" alt="Logo" height="128">
   <h1 align="center">CodeMaster for macOS</h1>
 </p>
 
@@ -14,4 +14,14 @@
 
 CodeMaster is a code editor built by the community, for the community, written entirely and unapologetically for macOS. Features include syntax highlighting, code completion, project find and replace, snippets, terminal, task running, debugging, git integration, code review, extensions, customizable color themes, live collaboration, Simulator integration for testing Swift Code and more.
 
+## Related Repositories
 
+<table>
+    <td align="center">
+      <a href="https://github.com/CodeMasterApp/CodeMasterCLI">
+        <img src="CodeMaster/CodeMaster/Assets.xcassets/AppIcon.appiconset/Flare.png" height="128">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;CodeMaster&nbsp;CLI&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </a>
+    </td>
+  </tr>
+</table>
