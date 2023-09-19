@@ -14,6 +14,9 @@
 
 CodeMaster is a code editor built by the community, for the community, written entirely and unapologetically for macOS. Features include syntax highlighting, code completion, project find and replace, snippets, terminal, task running, debugging, git integration, code review, extensions, customizable color themes, live collaboration, Simulator integration for testing Swift Code and more.
 
+### What is tbe diffrence between CodeMaster and CodeEdit/AuroraEditor
+
+
 ## Related Repositories
 
 <table>
