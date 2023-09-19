@@ -18,7 +18,7 @@ struct CodeMasterApp: App {
 //        let updater: SoftwareUpdater = SoftwareUpdater()
 
 //        init() {
-//            _ = CodeEditDocumentController.shared
+//            _ = CodeMasterDocumentController.shared
 //            NSMenuItem.swizzle()
 //            NSSplitViewItem.swizzle()
 //        }
