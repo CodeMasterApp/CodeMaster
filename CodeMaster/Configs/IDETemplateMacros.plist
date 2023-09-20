@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   IDETemplateMacros.plist
+   CodeMaster
+
+   Created by Nevio Hirani on 20.09.23.
+   Copyright (c) 2023 CodeMaster. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+            <key>FILEHEADER</key>
+            <string>
+    //
+    // ___FILENAME___
+    // ___PACKAGENAME___
+    //
+    // Created by ___FULLUSERNAME___ on ___DATE___
+    // Copyright © ___YEAR___ ___FULLUSERNAME___. All rights reserved.
+    //
+            </string>
+<dict/>
+</plist>

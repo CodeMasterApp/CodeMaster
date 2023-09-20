@@ -31,6 +31,7 @@
 		38B1D01B2AB775030088A744 /* WelcomeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D01A2AB775030088A744 /* WelcomeActionView.swift */; };
 		38B1D01D2AB7751E0088A744 /* RecentProjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D01C2AB7751E0088A744 /* RecentProjectsListView.swift */; };
 		38B1D01F2AB7752E0088A744 /* RecentProjectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D01E2AB7752E0088A744 /* RecentProjectItem.swift */; };
+		38CF95642ABB6BB800BE6BA2 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */; };
 		38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F372AB5F413005AD507 /* CodeMasterApp.swift */; };
 		38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F392AB5F413005AD507 /* ContentView.swift */; };
 		38F09F3C2AB5F416005AD507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F09F3B2AB5F416005AD507 /* Assets.xcassets */; };
@@ -98,6 +99,7 @@
 		38B1D01A2AB775030088A744 /* WelcomeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeActionView.swift; sourceTree = "<group>"; };
 		38B1D01C2AB7751E0088A744 /* RecentProjectsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentProjectsListView.swift; sourceTree = "<group>"; };
 		38B1D01E2AB7752E0088A744 /* RecentProjectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentProjectItem.swift; sourceTree = "<group>"; };
+		38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IDETemplateMacros.plist; sourceTree = "<group>"; };
 		38F09F342AB5F413005AD507 /* CodeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F09F372AB5F413005AD507 /* CodeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeMasterApp.swift; sourceTree = "<group>"; };
 		38F09F392AB5F413005AD507 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -462,6 +464,7 @@
 				381045ED2AB745BC00432F68 /* Beta.xcconfig */,
 				381045EF2AB745E100432F68 /* Debug.xcconfig */,
 				381045F02AB7460F00432F68 /* Release.xcconfig */,
+				38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -705,6 +708,7 @@
 			files = (
 				381045EE2AB745BC00432F68 /* Beta.xcconfig in Resources */,
 				381045EC2AB7458F00432F68 /* Alpha.xcconfig in Resources */,
+				38CF95642ABB6BB800BE6BA2 /* IDETemplateMacros.plist in Resources */,
 				38F09F3F2AB5F416005AD507 /* Preview Assets.xcassets in Resources */,
 				38F09F3C2AB5F416005AD507 /* Assets.xcassets in Resources */,
 			);
