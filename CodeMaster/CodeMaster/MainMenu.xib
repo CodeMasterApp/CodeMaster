@@ -429,36 +429,221 @@
                 </menuItem>
                 <menuItem title="Find" id="DBv-m4-tlI">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Find" id="QA0-NI-tdx">
+                    <menu key="submenu" title="Find" id="gz8-z0-epB">
                         <items>
-                            <menuItem title="Find in Project" keyEquivalent="F" id="v63-nP-Cux">
+                            <menuItem title="Find in Project" keyEquivalent="F" id="n2l-Xj-ZsU">
                                 <connections>
-                                    <action selector="toggleToolbarShown:" target="-1" id="jcJ-Zj-Cnp"/>
+                                    <action selector="toggleToolbarShown:" target="-1" id="3gP-hY-Yly"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Find and replace in Project" keyEquivalent="F" id="80S-0b-Lke">
+                            <menuItem title="Find and replace in Project" keyEquivalent="F" id="qSR-ZW-o7H">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
-                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="Kjx-WX-Igl"/>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="viU-4F-rnl"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Find Next in Project" keyEquivalent="g" id="jUC-BO-rWB">
+                            <menuItem title="Find Next in Project" keyEquivalent="g" id="yYN-ko-I92">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                 <connections>
-                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="UP6-hc-bSF"/>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="eIl-zc-85T"/>
                                 </connections>
                             </menuItem>
-                            <menuItem isSeparatorItem="YES" id="bV6-dz-yZW"/>
-                            <menuItem title="Show Sidebar" keyEquivalent="s" id="Oy4-4l-I4n">
+                            <menuItem isSeparatorItem="YES" id="hhD-I4-Zhv"/>
+                            <menuItem title="Show Sidebar" keyEquivalent="s" id="LgW-5C-sbU">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                 <connections>
-                                    <action selector="toggleSidebar:" target="-1" id="272-0c-wys"/>
+                                    <action selector="toggleSidebar:" target="-1" id="66m-QK-Qke"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="fJ0-Jo-fxi">
+                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="29Q-Ub-9PU">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                 <connections>
-                                    <action selector="toggleFullScreen:" target="-1" id="jxG-sd-eLm"/>
+                                    <action selector="toggleFullScreen:" target="-1" id="pMK-PZ-xYd"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Naviagte" id="VEQ-Ug-hSf">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Naviagte" id="r4f-6B-HA8">
+                        <items>
+                            <menuItem title="Find in Project" keyEquivalent="F" id="OJj-tA-L7L">
+                                <connections>
+                                    <action selector="toggleToolbarShown:" target="-1" id="VLE-LO-UxH"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find and replace in Project" keyEquivalent="F" id="xhl-wX-IZQ">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="TXv-U5-qgV"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find Next in Project" keyEquivalent="g" id="rgj-Bi-4KT">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="tZg-KB-d67"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="Dfb-Tk-0H0"/>
+                            <menuItem title="Show Sidebar" keyEquivalent="s" id="pRW-zP-ZBA">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleSidebar:" target="-1" id="MAC-vV-IZo"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="gvh-8q-0Tp">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleFullScreen:" target="-1" id="Tl9-Af-odv"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Editor" id="EZ4-xj-okw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Editor" id="mwX-KY-hdJ">
+                        <items>
+                            <menuItem title="Find in Project" keyEquivalent="F" id="zCG-u1-MZe">
+                                <connections>
+                                    <action selector="toggleToolbarShown:" target="-1" id="jTz-PI-nFe"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find and replace in Project" keyEquivalent="F" id="04v-ML-fv2">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="sYU-Bq-F5U"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find Next in Project" keyEquivalent="g" id="dJj-IO-RHf">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="UrV-qo-ORa"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="Pma-eq-sZc"/>
+                            <menuItem title="Show Sidebar" keyEquivalent="s" id="cLY-NT-IdL">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleSidebar:" target="-1" id="jVj-be-9WB"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="FrR-Hb-9HI">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleFullScreen:" target="-1" id="gNc-b9-LTh"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Product" id="TAy-cC-Caq">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Product" id="B3Y-ny-Scz">
+                        <items>
+                            <menuItem title="Find in Project" keyEquivalent="F" id="2JR-bf-xrP">
+                                <connections>
+                                    <action selector="toggleToolbarShown:" target="-1" id="xF5-Mc-gxs"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find and replace in Project" keyEquivalent="F" id="mxS-Jq-Grj">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="l5a-7U-RSN"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find Next in Project" keyEquivalent="g" id="LoO-8J-3Uh">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="wp3-h8-OOv"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="vvs-tg-w5J"/>
+                            <menuItem title="Show Sidebar" keyEquivalent="s" id="2gb-cT-iB1">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleSidebar:" target="-1" id="1qN-MQ-53v"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="p48-dA-ZJy">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleFullScreen:" target="-1" id="6gX-RI-ddq"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Debug" id="bar-ho-sDR">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Debug" id="8sV-0P-5Qh">
+                        <items>
+                            <menuItem title="Find in Project" keyEquivalent="F" id="KXF-j2-y4s">
+                                <connections>
+                                    <action selector="toggleToolbarShown:" target="-1" id="R87-L7-dzd"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find and replace in Project" keyEquivalent="F" id="qMN-Nf-gvW">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="jag-Pf-Dql"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find Next in Project" keyEquivalent="g" id="nQ8-uZ-ObL">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="ZxC-dp-yhP"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="PdQ-Vv-93v"/>
+                            <menuItem title="Show Sidebar" keyEquivalent="s" id="jCq-5A-Yaz">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleSidebar:" target="-1" id="81G-vD-RBI"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="a2g-d3-UxK">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleFullScreen:" target="-1" id="OCj-Iq-cQL"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Integrate" id="l45-1s-azH">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Integrate" id="sTH-I5-avD">
+                        <items>
+                            <menuItem title="Find in Project" keyEquivalent="F" id="Iez-UT-TZ0">
+                                <connections>
+                                    <action selector="toggleToolbarShown:" target="-1" id="4nf-nt-hfP"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find and replace in Project" keyEquivalent="F" id="Oub-Yi-KbO">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="q1R-EN-RXl"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Find Next in Project" keyEquivalent="g" id="fJR-tR-ghN">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runToolbarCustomizationPalette:" target="-1" id="JhF-8Y-vFl"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="SbL-Gj-ajj"/>
+                            <menuItem title="Show Sidebar" keyEquivalent="s" id="61F-Um-8ou">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleSidebar:" target="-1" id="DKz-ZO-vYN"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="j1V-iu-Euh">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="toggleFullScreen:" target="-1" id="RiW-K4-c3Z"/>
                                 </connections>
                             </menuItem>
                         </items>
