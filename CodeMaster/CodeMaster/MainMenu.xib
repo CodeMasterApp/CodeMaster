@@ -30,9 +30,65 @@
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
                             <menuItem title="Settings" keyEquivalent="," id="BOF-NM-1cW"/>
                             <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
-                            <menuItem title="Services" id="NMo-om-nkz">
+                            <menuItem title="Developer Tools" id="NMo-om-nkz">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                                <menu key="submenu" title="Developer Tools" systemMenu="services" id="hz9-B4-Xy5">
+                                    <items>
+                                        <menuItem title="Xcode" id="cgA-do-h7C">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Xcode" systemMenu="services" id="Mzd-FK-n6N">
+                                                <items>
+                                                    <menuItem title="Instruments" id="GSp-IP-Ese">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="orderFrontStandardAboutPanel:" target="-1" id="EFh-5T-KMy"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Simulator" id="hPZ-Nh-ANr">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="orderFrontStandardAboutPanel:" target="-1" id="WdP-LQ-ipG"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Accessibility Inspector" id="ffy-jC-M7a">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="orderFrontStandardAboutPanel:" target="-1" id="Uhn-VX-rgS"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="FileMerge" id="8ps-CO-sbn">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="orderFrontStandardAboutPanel:" target="-1" id="lCJ-6c-FAe"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Create ML" id="enW-aL-HbX">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="orderFrontStandardAboutPanel:" target="-1" id="WUi-pL-kvU"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Reality Composer Pro" id="UDl-G1-8ET">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="orderFrontStandardAboutPanel:" target="-1" id="PgF-uf-7fM"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                        </menuItem>
+                                        <menuItem title="CMTerminal" id="jQP-ms-95J">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="-1" id="G3A-vi-gtq"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Services" id="nVw-cw-TJ1">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Services" systemMenu="services" id="9BN-zg-8lZ"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
                             <menuItem title="Hide CodeMaster" keyEquivalent="h" id="Olw-nP-bQN">
@@ -184,6 +240,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Open Recent" systemMenu="recentDocuments" id="oas-Oc-fiZ">
                                     <items>
+                                        <menuItem isSeparatorItem="YES" id="xdU-AD-5L2"/>
                                         <menuItem title="Clear Menu" id="vNY-rz-j42">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
@@ -286,10 +343,23 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Packages" systemMenu="recentDocuments" id="VKH-dw-WvH">
                                     <items>
-                                        <menuItem title="Clear Menu" id="lb8-jh-x5x">
+                                        <menuItem title="Reset Package Chaces" id="lb8-jh-x5x">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="clearRecentDocuments:" target="-1" id="sdf-e6-AOM"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Resolve Package Versions" id="BvT-UF-LwD">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="cRq-Js-YWs"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="1oJ-vk-QnQ"/>
+                                        <menuItem title="Update to Lastest Package Versions" id="dnG-gX-0zv">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="Qax-Uu-QOi"/>
                                             </connections>
                                         </menuItem>
                                     </items>
