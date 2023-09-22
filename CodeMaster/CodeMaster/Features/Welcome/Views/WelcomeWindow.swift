@@ -6,3 +6,5 @@
 //
 
 import SwiftUI
+
+#warning("Create welcome window")

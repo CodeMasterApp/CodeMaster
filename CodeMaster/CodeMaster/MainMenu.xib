@@ -67,12 +67,95 @@
                         <items>
                             <menuItem title="New" id="FeM-vQ-EqS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="New" systemMenu="recentDocuments" id="W6K-lK-hEf">
+                                <menu key="submenu" title="New" systemMenu="recentDocuments" id="GrD-ft-7bq">
                                     <items>
-                                        <menuItem title="Clear Menu" id="hTp-h5-6UZ">
+                                        <menuItem title="Editor" keyEquivalent="t" id="TJE-Dy-oaH">
+                                            <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="taV-tT-5km"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Editor Below" keyEquivalent="t" id="MfE-t9-C7B">
+                                            <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="Swe-Pl-jac"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Window Tab" keyEquivalent="t" id="rPo-lO-VQO">
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="Ge4-b9-8GW"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Window" keyEquivalent="T" id="6UN-aH-FH9">
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="Tl3-oT-thq"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Terminal Session" keyEquivalent="t" id="giR-wd-FFf">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="jLA-qP-XNK"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Terminal" keyEquivalent="T" id="Qna-cF-8uw">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="R8V-xm-4Pc"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="6Hg-Ys-aMD"/>
+                                        <menuItem title="File..." keyEquivalent="n" id="uc8-Np-ctg">
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="Fw0-DC-2R0"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Target..." id="vlb-wC-IHQ">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="clearRecentDocuments:" target="-1" id="Cdg-GN-bc7"/>
+                                                <action selector="clearRecentDocuments:" target="-1" id="gR9-UE-o9W"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="jiD-0h-xhE"/>
+                                        <menuItem title="Playground..." keyEquivalent="N" id="7wf-e4-jb1">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="X8S-Ql-keh"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Project..." keyEquivalent="N" id="1pA-3l-Bly">
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="YrL-3Q-hhg"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Package..." keyEquivalent="N" id="Wro-eE-7d6">
+                                            <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="gmU-ap-0gK"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Workspace..." keyEquivalent="n" id="8Mw-Jx-ou8">
+                                            <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="8AM-lN-dqj"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="Rr4-F7-HUd"/>
+                                        <menuItem title="Group" keyEquivalent="n" id="WfK-pC-cAn">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="9zs-ts-06j"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Group without Folder" keyEquivalent="n" id="2og-5d-vCC">
+                                            <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="wKt-oy-zH2"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Group from Selection" id="GmR-4P-MyF">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="heo-ZM-aKE"/>
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -161,7 +244,74 @@
                                     <action selector="delete:" target="-1" id="wtT-hg-eVh"/>
                                 </connections>
                             </menuItem>
+                            <menuItem title="Unlock..." id="jXS-PJ-U3T">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="5ug-kX-GHn"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Export..." id="sX3-t7-vY8">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="bKB-oS-A0M"/>
+                                </connections>
+                            </menuItem>
                             <menuItem isSeparatorItem="YES" id="aJh-i4-bef"/>
+                            <menuItem title="Show in Finder" id="slm-X1-JJj">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="TMk-Fi-NhR"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Open in Tab" keyEquivalent="o" id="fXr-1r-vZK">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="KaV-9Q-8hK"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Open in New Window" id="Fkk-dp-x7h">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="8Yi-O2-hVw"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Open with External Editor" id="ZKB-tZ-oGW">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="NAf-AP-obx"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="idJ-7C-1Yo"/>
+                            <menuItem title="Packages" id="sAe-95-Flq">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Packages" systemMenu="recentDocuments" id="VKH-dw-WvH">
+                                    <items>
+                                        <menuItem title="Clear Menu" id="lb8-jh-x5x">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="sdf-e6-AOM"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="tft-c4-fvb"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="sBK-1u-74v"/>
+                            <menuItem title="Save As Workspace..." id="NYJ-3e-zqt">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="Emx-jI-hCD"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Project Settings..." id="ldx-2z-p92">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="oFY-Bh-eSn"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="hgs-bi-Tno"/>
                             <menuItem title="Page Setup…" keyEquivalent="P" id="qIS-W8-SiK">
                                 <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                 <connections>
