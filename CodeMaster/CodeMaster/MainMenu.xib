@@ -216,6 +216,9 @@
                                         </menuItem>
                                     </items>
                                 </menu>
+                                <connections>
+                                    <action selector="newDocument:" target="-1" id="mCW-1Z-GBp"/>
+                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="m54-Is-iLE"/>
                             <menuItem title="Add Files to &quot;CodeMaster&quot;" keyEquivalent="a" id="1i0-RC-HbO">
@@ -423,7 +426,7 @@
                             </menuItem>
                             <menuItem title="Paste" keyEquivalent="v" id="gVA-U4-sdL">
                                 <connections>
-                                    <action selector="paste:" target="-1" id="UvS-8e-Qdg"/>
+                                    <action selector="paste:" target="-1" id="AaU-io-Fib"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Paste and Match Style" keyEquivalent="V" id="WeT-3V-zwk">
@@ -438,12 +441,136 @@
                                     <action selector="delete:" target="-1" id="0Mk-Ml-PaM"/>
                                 </connections>
                             </menuItem>
+                            <menuItem isSeparatorItem="YES" id="Rpc-4y-iMU"/>
                             <menuItem title="Select All" keyEquivalent="a" id="Ruw-6m-B2m">
                                 <connections>
                                     <action selector="selectAll:" target="-1" id="VNm-Mi-diN"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="uyl-h8-XO2"/>
+                            <menuItem title="Add Line Bookmark" id="de7-H2-g8f">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="6wc-fT-SjA"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Bookmark &quot;Filename.extension&quot;" id="nkn-h3-A8H">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="4If-gx-oO9"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="fpk-xz-LyI"/>
+                            <menuItem title="Sort" id="K60-JW-UWK">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Sort" id="qZx-0l-Rkb">
+                                    <items>
+                                        <menuItem title="Show Spelling and Grammar" keyEquivalent=":" id="XZh-yK-5BS">
+                                            <connections>
+                                                <action selector="showGuessPanel:" target="-1" id="xt6-LK-4oM"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Check Document Now" keyEquivalent=";" id="tva-MX-Wsy">
+                                            <connections>
+                                                <action selector="checkSpelling:" target="-1" id="TCR-pT-72j"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="qGD-9H-yaO"/>
+                                        <menuItem title="Check Spelling While Typing" id="dog-5L-3ys">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleContinuousSpellChecking:" target="-1" id="lBi-AW-DrL"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Check Grammar With Spelling" id="Iul-bD-0hk">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleGrammarChecking:" target="-1" id="cbi-a5-0uS"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Correct Spelling Automatically" id="7o1-Be-dTl">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleAutomaticSpellingCorrection:" target="-1" id="J0z-YG-cXd"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Format" id="VwB-Rj-JBC">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Format" id="0sY-rq-Y1b">
+                                    <items>
+                                        <menuItem title="Show Spelling and Grammar" keyEquivalent=":" id="RHl-Le-SAB">
+                                            <connections>
+                                                <action selector="showGuessPanel:" target="-1" id="aRl-Sr-Ey1"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Check Document Now" keyEquivalent=";" id="LLd-73-uwT">
+                                            <connections>
+                                                <action selector="checkSpelling:" target="-1" id="I8A-KC-Ivz"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="Oe5-u2-1Ol"/>
+                                        <menuItem title="Check Spelling While Typing" id="6P6-oc-ZD2">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleContinuousSpellChecking:" target="-1" id="AZ8-N7-hm5"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Check Grammar With Spelling" id="6gD-mo-FTw">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleGrammarChecking:" target="-1" id="Oia-DH-Nxm"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Correct Spelling Automatically" id="1vI-GP-ybI">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleAutomaticSpellingCorrection:" target="-1" id="YrH-B8-sd1"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="bIl-Uu-ig2"/>
+                            <menuItem title="Convert" id="IuL-1g-sLO">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Convert" id="ODa-qg-cW2">
+                                    <items>
+                                        <menuItem title="Show Spelling and Grammar" keyEquivalent=":" id="Nw8-YS-gf6">
+                                            <connections>
+                                                <action selector="showGuessPanel:" target="-1" id="1ZI-vw-IUc"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Check Document Now" keyEquivalent=";" id="tBZ-qS-6Jh">
+                                            <connections>
+                                                <action selector="checkSpelling:" target="-1" id="p4O-HT-YF3"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="Aor-ZJ-ORo"/>
+                                        <menuItem title="Check Spelling While Typing" id="W7b-as-3AY">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleContinuousSpellChecking:" target="-1" id="iCi-Qt-n4r"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Check Grammar With Spelling" id="jDi-Bi-jeX">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleGrammarChecking:" target="-1" id="D6h-Sz-dAD"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Correct Spelling Automatically" id="Cy0-EN-VzE">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleAutomaticSpellingCorrection:" target="-1" id="YcB-ID-TKN"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="19c-14-1Tv"/>
                             <menuItem title="Find" id="4EN-yA-p0u">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Find" id="1b7-l0-nxx">
