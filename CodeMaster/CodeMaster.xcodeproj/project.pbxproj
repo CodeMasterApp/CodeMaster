@@ -522,9 +522,9 @@
 				38F09F372AB5F413005AD507 /* CodeMasterApp.swift */,
 				38F09F392AB5F413005AD507 /* ContentView.swift */,
 				38F09F3B2AB5F416005AD507 /* Assets.xcassets */,
+				38EEB8C52ABB72AB00B5B7D2 /* MainMenu.xib */,
 				38F09F402AB5F416005AD507 /* CodeMaster.entitlements */,
 				38F09F3D2AB5F416005AD507 /* Preview Content */,
-				38EEB8C52ABB72AB00B5B7D2 /* MainMenu.xib */,
 			);
 			path = CodeMaster;
 			sourceTree = "<group>";
