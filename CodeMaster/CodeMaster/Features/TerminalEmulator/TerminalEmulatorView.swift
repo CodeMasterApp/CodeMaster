@@ -13,4 +13,6 @@ import SwiftTerm
 /// A terminal emulator view.
 ///
 ///
-#warning("Create a the terminal view")
+struct TerminalEmulatorView: NSViewRepresentable {
+    
+}

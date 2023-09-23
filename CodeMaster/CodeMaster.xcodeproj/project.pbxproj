@@ -22,6 +22,10 @@
 		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
 		383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */; };
 		385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 385CD4332AB608340004A323 /* CodeMasterSymbols */; };
+		3881EB3C2ABEF340002C09EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3881EB3B2ABEF340002C09EA /* Info.plist */; };
+		3881EB3F2ABEF591002C09EA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 3881EB3E2ABEF591002C09EA /* Sparkle */; };
+		3881EB422ABEF8FA002C09EA /* SoftwareUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881EB412ABEF8FA002C09EA /* SoftwareUpdater.swift */; };
+		3881EB462ABEFA39002C09EA /* MainCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881EB452ABEFA39002C09EA /* MainCommands.swift */; };
 		3896C82F2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3896C82E2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift */; };
 		38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */ = {isa = PBXBuildFile; productRef = 38B1D00E2AB772F30088A744 /* WindowManagement */; };
 		38B1D0122AB773750088A744 /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 38B1D0112AB773750088A744 /* AnyCodable */; };
@@ -93,6 +97,9 @@
 		3833AB992AB77D2000D806C6 /* ShellClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellClient.swift; sourceTree = "<group>"; };
 		3835278F2AB643B500E2DD12 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalEmulatorView.swift; sourceTree = "<group>"; };
+		3881EB3B2ABEF340002C09EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3881EB412ABEF8FA002C09EA /* SoftwareUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareUpdater.swift; sourceTree = "<group>"; };
+		3881EB452ABEFA39002C09EA /* MainCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCommands.swift; sourceTree = "<group>"; };
 		3896C82E2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TerminalEmulatorView+Coordinator.swift"; sourceTree = "<group>"; };
 		38B1D0142AB774BB0088A744 /* WelcomeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindow.swift; sourceTree = "<group>"; };
 		38B1D0162AB774D10088A744 /* WelcomeWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindowView.swift; sourceTree = "<group>"; };
@@ -132,6 +139,7 @@
 				3833ABA02AB77E2400D806C6 /* InlineSnapshotTesting in Frameworks */,
 				383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */,
 				385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */,
+				3881EB3F2ABEF591002C09EA /* Sparkle in Frameworks */,
 				38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */,
 				3833ABA22AB77E2400D806C6 /* SnapshotTesting in Frameworks */,
 				38B1D0122AB773750088A744 /* AnyCodable in Frameworks */,
@@ -222,6 +230,7 @@
 		3835276F2AB62D0800E2DD12 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3881EB402ABEF8D6002C09EA /* Settings */,
 				3835278A2AB642D700E2DD12 /* WindowCommands */,
 				383527892AB642CB00E2DD12 /* Keybindings */,
 				383527882AB6429000E2DD12 /* Welcome */,
@@ -441,6 +450,7 @@
 		3835278A2AB642D700E2DD12 /* WindowCommands */ = {
 			isa = PBXGroup;
 			children = (
+				3881EB452ABEFA39002C09EA /* MainCommands.swift */,
 			);
 			path = WindowCommands;
 			sourceTree = "<group>";
@@ -469,6 +479,14 @@
 				38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */,
 			);
 			path = Configs;
+			sourceTree = "<group>";
+		};
+		3881EB402ABEF8D6002C09EA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3881EB412ABEF8FA002C09EA /* SoftwareUpdater.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		38B1D0132AB774700088A744 /* Views */ = {
@@ -525,6 +543,7 @@
 				38EEB8C52ABB72AB00B5B7D2 /* MainMenu.xib */,
 				38F09F402AB5F416005AD507 /* CodeMaster.entitlements */,
 				38F09F3D2AB5F416005AD507 /* Preview Content */,
+				3881EB3B2ABEF340002C09EA /* Info.plist */,
 			);
 			path = CodeMaster;
 			sourceTree = "<group>";
@@ -599,6 +618,7 @@
 				3833AB9C2AB77DA200D806C6 /* Glob */,
 				3833AB9F2AB77E2400D806C6 /* InlineSnapshotTesting */,
 				3833ABA12AB77E2400D806C6 /* SnapshotTesting */,
+				3881EB3E2ABEF591002C09EA /* Sparkle */,
 			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
@@ -683,6 +703,7 @@
 				38B1D0102AB773750088A744 /* XCRemoteSwiftPackageReference "AnyCodable" */,
 				3833AB9B2AB77DA200D806C6 /* XCRemoteSwiftPackageReference "Glob" */,
 				3833AB9E2AB77E2400D806C6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				3881EB3D2ABEF591002C09EA /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
@@ -715,6 +736,7 @@
 				38F09F3F2AB5F416005AD507 /* Preview Assets.xcassets in Resources */,
 				38F09F3C2AB5F416005AD507 /* Assets.xcassets in Resources */,
 				38EEB8C62ABB72AB00B5B7D2 /* MainMenu.xib in Resources */,
+				3881EB3C2ABEF340002C09EA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,6 +771,8 @@
 			files = (
 				3896C82F2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift in Sources */,
 				38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */,
+				3881EB462ABEFA39002C09EA /* MainCommands.swift in Sources */,
+				3881EB422ABEF8FA002C09EA /* SoftwareUpdater.swift in Sources */,
 				38B1D0172AB774D10088A744 /* WelcomeWindowView.swift in Sources */,
 				383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */,
 				383527902AB643B500E2DD12 /* Documentation.docc in Sources */,
@@ -1191,6 +1215,14 @@
 				kind = branch;
 			};
 		};
+		3881EB3D2ABEF591002C09EA /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
 		38B1D00D2AB772F30088A744 /* XCRemoteSwiftPackageReference "SwiftUI-WindowManagement" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Wouter01/SwiftUI-WindowManagement/";
@@ -1244,6 +1276,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */;
 			productName = CodeMasterSymbols;
+		};
+		3881EB3E2ABEF591002C09EA /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3881EB3D2ABEF591002C09EA /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
 		};
 		38B1D00E2AB772F30088A744 /* WindowManagement */ = {
 			isa = XCSwiftPackageProductDependency;

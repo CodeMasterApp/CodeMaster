@@ -93,13 +93,13 @@
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
                             <menuItem title="Hide CodeMaster" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
-                                    <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
+                                    <action selector="hide:" target="-2" id="AwX-fi-rj9"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
-                                    <action selector="hideOtherApplications:" target="-1" id="VT4-aY-XCT"/>
+                                    <action selector="hideOtherApplications:" target="-2" id="8iU-eX-NlO"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Show All" id="Kd2-mp-pUS">
