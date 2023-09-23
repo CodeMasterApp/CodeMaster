@@ -22,6 +22,7 @@
 		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
 		383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */; };
 		385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 385CD4332AB608340004A323 /* CodeMasterSymbols */; };
+		387989482ABF6E4400A4B178 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387989472ABF6E4400A4B178 /* Bookmark.swift */; };
 		3881EB3C2ABEF340002C09EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3881EB3B2ABEF340002C09EA /* Info.plist */; };
 		3881EB3F2ABEF591002C09EA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 3881EB3E2ABEF591002C09EA /* Sparkle */; };
 		3881EB422ABEF8FA002C09EA /* SoftwareUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881EB412ABEF8FA002C09EA /* SoftwareUpdater.swift */; };
@@ -98,6 +99,7 @@
 		3833AB992AB77D2000D806C6 /* ShellClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellClient.swift; sourceTree = "<group>"; };
 		3835278F2AB643B500E2DD12 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalEmulatorView.swift; sourceTree = "<group>"; };
+		387989472ABF6E4400A4B178 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
 		3881EB3B2ABEF340002C09EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3881EB412ABEF8FA002C09EA /* SoftwareUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareUpdater.swift; sourceTree = "<group>"; };
 		3881EB452ABEFA39002C09EA /* MainCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCommands.swift; sourceTree = "<group>"; };
@@ -487,6 +489,7 @@
 		387989462ABF1F4000A4B178 /* Bookmark */ = {
 			isa = PBXGroup;
 			children = (
+				387989472ABF6E4400A4B178 /* Bookmark.swift */,
 			);
 			path = Bookmark;
 			sourceTree = "<group>";
@@ -794,6 +797,7 @@
 				3881EB462ABEFA39002C09EA /* MainCommands.swift in Sources */,
 				3881EB422ABEF8FA002C09EA /* SoftwareUpdater.swift in Sources */,
 				38B1D0172AB774D10088A744 /* WelcomeWindowView.swift in Sources */,
+				387989482ABF6E4400A4B178 /* Bookmark.swift in Sources */,
 				383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */,
 				383527902AB643B500E2DD12 /* Documentation.docc in Sources */,
 				3833AB9A2AB77D2000D806C6 /* ShellClient.swift in Sources */,
