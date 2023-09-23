@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: CodeMaster Support
+    url: https://github.com/CodeMasterApp/CodeMaster/discussions
+    about: Please ask and answer questions here.
+  - name: Join our Discord Community
+    url: https://discord.gg/NgKstR2Uvh
+    about: The official CodeMaster Discord Community
