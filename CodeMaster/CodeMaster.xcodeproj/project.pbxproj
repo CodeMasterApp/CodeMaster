@@ -37,6 +37,7 @@
 		38B1D01F2AB7752E0088A744 /* RecentProjectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D01E2AB7752E0088A744 /* RecentProjectItem.swift */; };
 		38CF95642ABB6BB800BE6BA2 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */; };
 		38EEB8C62ABB72AB00B5B7D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB8C52ABB72AB00B5B7D2 /* MainMenu.xib */; };
+		38EF62742ABEFF2A006A3D56 /* CMLiveCollab in Frameworks */ = {isa = PBXBuildFile; productRef = 38EF62732ABEFF2A006A3D56 /* CMLiveCollab */; };
 		38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F372AB5F413005AD507 /* CodeMasterApp.swift */; };
 		38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F09F392AB5F413005AD507 /* ContentView.swift */; };
 		38F09F3C2AB5F416005AD507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F09F3B2AB5F416005AD507 /* Assets.xcassets */; };
@@ -142,6 +143,7 @@
 				3881EB3F2ABEF591002C09EA /* Sparkle in Frameworks */,
 				38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */,
 				3833ABA22AB77E2400D806C6 /* SnapshotTesting in Frameworks */,
+				38EF62742ABEFF2A006A3D56 /* CMLiveCollab in Frameworks */,
 				38B1D0122AB773750088A744 /* AnyCodable in Frameworks */,
 				381045C52AB73A9700432F68 /* CodeMaster-Version-Control-Kit in Frameworks */,
 			);
@@ -489,6 +491,13 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		3881EB472ABEFC22002C09EA /* LiveCollaboration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LiveCollaboration;
+			sourceTree = "<group>";
+		};
 		38B1D0132AB774700088A744 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -530,6 +539,7 @@
 		38F09F362AB5F413005AD507 /* CodeMaster */ = {
 			isa = PBXGroup;
 			children = (
+				3881EB472ABEFC22002C09EA /* LiveCollaboration */,
 				3835278B2AB6431900E2DD12 /* ShellIntegration */,
 				3835276F2AB62D0800E2DD12 /* Features */,
 				3835276E2AB62CC100E2DD12 /* ColorThemes */,
@@ -619,6 +629,7 @@
 				3833AB9F2AB77E2400D806C6 /* InlineSnapshotTesting */,
 				3833ABA12AB77E2400D806C6 /* SnapshotTesting */,
 				3881EB3E2ABEF591002C09EA /* Sparkle */,
+				38EF62732ABEFF2A006A3D56 /* CMLiveCollab */,
 			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
@@ -704,6 +715,7 @@
 				3833AB9B2AB77DA200D806C6 /* XCRemoteSwiftPackageReference "Glob" */,
 				3833AB9E2AB77E2400D806C6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 				3881EB3D2ABEF591002C09EA /* XCRemoteSwiftPackageReference "Sparkle" */,
+				38EF62722ABEFF2A006A3D56 /* XCRemoteSwiftPackageReference "CMLiveCollab" */,
 			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
@@ -1239,6 +1251,14 @@
 				minimumVersion = 0.6.7;
 			};
 		};
+		38EF62722ABEFF2A006A3D56 /* XCRemoteSwiftPackageReference "CMLiveCollab" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeMasterApp/CMLiveCollab";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1291,6 +1311,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38B1D0102AB773750088A744 /* XCRemoteSwiftPackageReference "AnyCodable" */;
 			productName = AnyCodable;
+		};
+		38EF62732ABEFF2A006A3D56 /* CMLiveCollab */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EF62722ABEFF2A006A3D56 /* XCRemoteSwiftPackageReference "CMLiveCollab" */;
+			productName = CMLiveCollab;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

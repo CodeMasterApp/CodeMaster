@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "cmlivecollab",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CodeMasterApp/CMLiveCollab",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f4c18078a7e49a90d7dbe8ad9459ecddd5691bb2"
+      }
+    },
+    {
       "identity" : "codemaster-version-control-kit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CodeMasterApp/CodeMaster-Version-Control-Kit",
