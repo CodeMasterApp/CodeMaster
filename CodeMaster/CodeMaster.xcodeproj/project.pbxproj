@@ -232,6 +232,7 @@
 		3835276F2AB62D0800E2DD12 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				387989462ABF1F4000A4B178 /* Bookmark */,
 				3881EB402ABEF8D6002C09EA /* Settings */,
 				3835278A2AB642D700E2DD12 /* WindowCommands */,
 				383527892AB642CB00E2DD12 /* Keybindings */,
@@ -481,6 +482,13 @@
 				38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */,
 			);
 			path = Configs;
+			sourceTree = "<group>";
+		};
+		387989462ABF1F4000A4B178 /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bookmark;
 			sourceTree = "<group>";
 		};
 		3881EB402ABEF8D6002C09EA /* Settings */ = {
