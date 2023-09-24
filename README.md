@@ -36,6 +36,13 @@ CodeMaster is a code editor built by the community, for the community, written e
         <p>&nbsp;&nbsp;&nbsp;&nbsp;CodeMaster&nbsp;Languages&nbsp;&nbsp;&nbsp;&nbsp;</p>
       </a>
     </td>
+  <!---->
+  <td align="center">
+      <a href="https://github.com/CodeMasterApp/CodeMasterCLI">
+        <img src="https://user-images.githubusercontent.com/63672227/194052928-6c476452-3cd6-494b-9604-e1b8e1998390.png" width="128" height="128">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;CM&nbsp;ExtensionKit&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </a>
+    </td>
   <!--raycast extension-->
   <td align="center">
       <a href="https://github.com/CodeMasterApp/CMRaycastIntegration">
