@@ -15,7 +15,7 @@ struct CodeMasterApp: App {
         @Environment(\.openWindow)
         var openWindow
 
-//        let updater: SoftwareUpdater = SoftwareUpdater()
+        let updater: SoftwareUpdater = SoftwareUpdater()
 
 //        init() {
 //            _ = CodeMasterDocumentController.shared
