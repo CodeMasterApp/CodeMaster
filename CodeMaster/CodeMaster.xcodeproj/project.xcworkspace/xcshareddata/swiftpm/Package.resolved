@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "cmlldb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CodeMasterApp/CMLLDB",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c58cf9fe934eb7d0d8a4852e2786deb27bcc4754"
+      }
+    },
+    {
       "identity" : "codemaster-version-control-kit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CodeMasterApp/CodeMaster-Version-Control-Kit",
