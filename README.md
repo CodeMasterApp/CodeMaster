@@ -45,7 +45,7 @@ CodeMaster is a code editor built by the community, for the community, written e
     </td>
   <!--raycast extension-->
   <td align="center">
-      <a href="https://github.com/CodeMasterApp/CMRaycastIntegration">
+      <a href="https://github.com/CodeMasterApp/CMRaycast-Extension">
         <img src="https://github.com/CodeMasterApp/CMRaycastIntegration/blob/main/images/store-logo.png" height="128">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;CM&nbsp;RaycastExtension&nbsp;&nbsp;&nbsp;&nbsp;</p>
       </a>
