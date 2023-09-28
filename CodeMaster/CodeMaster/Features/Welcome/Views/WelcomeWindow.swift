@@ -7,4 +7,10 @@
 
 import SwiftUI
 
-
+struct WelcomeWindow: View {
+    var body: some View {
+        VStack {
+            Text("Hello World")
+        }
+    }
+}
