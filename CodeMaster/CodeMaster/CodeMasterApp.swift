@@ -46,7 +46,7 @@ struct CodeMasterApp: App {
 //                    .enableOpenWindow() // Required for opening windows through NSApp
 //                    .handlesExternalEvents(matching: [])
 //                    .commands {
-//                        CodeEditCommands()
+//                        CodeMasterCommands()
 //                    }
                 }
 //                .environment(\.settings, settings.preferences) // Add settings to each window environment
