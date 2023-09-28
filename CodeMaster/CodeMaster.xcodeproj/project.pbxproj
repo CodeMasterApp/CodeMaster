@@ -36,6 +36,9 @@
 		38B1D01B2AB775030088A744 /* WelcomeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D01A2AB775030088A744 /* WelcomeActionView.swift */; };
 		38B1D01D2AB7751E0088A744 /* RecentProjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D01C2AB7751E0088A744 /* RecentProjectsListView.swift */; };
 		38B1D01F2AB7752E0088A744 /* RecentProjectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D01E2AB7752E0088A744 /* RecentProjectItem.swift */; };
+		38BD3A292AC5E84800C125E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD3A282AC5E84800C125E5 /* AppDelegate.swift */; };
+		38BD3A2B2AC5E92D00C125E5 /* SceneID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD3A2A2AC5E92D00C125E5 /* SceneID.swift */; };
+		38BD3A2D2AC5E95C00C125E5 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD3A2C2AC5E95C00C125E5 /* World.swift */; };
 		38CF95642ABB6BB800BE6BA2 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */; };
 		38DD39892AC4AB4800EE1214 /* CMLLDB in Frameworks */ = {isa = PBXBuildFile; productRef = 38DD39882AC4AB4800EE1214 /* CMLLDB */; };
 		38EEB8C62ABB72AB00B5B7D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB8C52ABB72AB00B5B7D2 /* MainMenu.xib */; };
@@ -111,6 +114,9 @@
 		38B1D01A2AB775030088A744 /* WelcomeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeActionView.swift; sourceTree = "<group>"; };
 		38B1D01C2AB7751E0088A744 /* RecentProjectsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentProjectsListView.swift; sourceTree = "<group>"; };
 		38B1D01E2AB7752E0088A744 /* RecentProjectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentProjectItem.swift; sourceTree = "<group>"; };
+		38BD3A282AC5E84800C125E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38BD3A2A2AC5E92D00C125E5 /* SceneID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneID.swift; sourceTree = "<group>"; };
+		38BD3A2C2AC5E95C00C125E5 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 		38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IDETemplateMacros.plist; sourceTree = "<group>"; };
 		38EEB8C52ABB72AB00B5B7D2 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		38F09F342AB5F413005AD507 /* CodeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -567,6 +573,9 @@
 				38F09F402AB5F416005AD507 /* CodeMaster.entitlements */,
 				38F09F3D2AB5F416005AD507 /* Preview Content */,
 				3881EB3B2ABEF340002C09EA /* Info.plist */,
+				38BD3A282AC5E84800C125E5 /* AppDelegate.swift */,
+				38BD3A2A2AC5E92D00C125E5 /* SceneID.swift */,
+				38BD3A2C2AC5E95C00C125E5 /* World.swift */,
 			);
 			path = CodeMaster;
 			sourceTree = "<group>";
@@ -796,14 +805,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38BD3A2D2AC5E95C00C125E5 /* World.swift in Sources */,
 				3896C82F2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift in Sources */,
 				38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */,
+				38BD3A2B2AC5E92D00C125E5 /* SceneID.swift in Sources */,
 				3881EB462ABEFA39002C09EA /* MainCommands.swift in Sources */,
 				3881EB422ABEF8FA002C09EA /* SoftwareUpdater.swift in Sources */,
 				38B1D0172AB774D10088A744 /* WelcomeWindowView.swift in Sources */,
 				387989482ABF6E4400A4B178 /* Bookmark.swift in Sources */,
 				383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */,
 				383527902AB643B500E2DD12 /* Documentation.docc in Sources */,
+				38BD3A292AC5E84800C125E5 /* AppDelegate.swift in Sources */,
 				3833AB9A2AB77D2000D806C6 /* ShellClient.swift in Sources */,
 				38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */,
 				38B1D01F2AB7752E0088A744 /* RecentProjectItem.swift in Sources */,
