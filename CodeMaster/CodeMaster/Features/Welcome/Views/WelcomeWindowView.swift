@@ -6,3 +6,9 @@
 //
 
 import SwiftUI
+
+struct WelcomeWindowView: View {
+    var body: some View {
+        Text("Hello")
+    }
+}

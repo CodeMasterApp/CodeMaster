@@ -6,3 +6,9 @@
 //
 
 import SwiftUI
+
+struct WelcomeActionView: View {
+    var body: some View {
+        Text("Hi")
+    }
+}

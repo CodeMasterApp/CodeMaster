@@ -6,3 +6,9 @@
 //
 
 import SwiftUI
+
+struct RecentProjectItem: View {
+    var body: some View {
+        Text("Recent")
+    }
+}
