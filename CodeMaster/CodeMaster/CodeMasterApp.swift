@@ -10,7 +10,7 @@ import WindowManagement
 
 @main
 struct CodeMasterApp: App {
-//    @NSApplicationDelegateAdaptor var appdelegate: AppDelegate
+        @NSApplicationDelegateAdaptor var appdelegate: AppDelegate
 //        @ObservedObject var settings = Settings.shared
 
         @Environment(\.openWindow)
@@ -26,7 +26,7 @@ struct CodeMasterApp: App {
     var body: some Scene {
         WindowGroup { // Change WindowGroup to Window - @N3v1
                     WelcomeWindow()
-//                        .keyboardShortcut("1", modifiers: [.command, .shift])
+                        .keyboardShortcut("1", modifiers: [.command, .shift])
 //
 //                    ExtensionManagerWindow()
 //                        .keyboardShortcut("2", modifiers: [.command, .shift])
