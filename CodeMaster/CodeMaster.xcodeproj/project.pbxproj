@@ -22,6 +22,11 @@
 		383527902AB643B500E2DD12 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3835278F2AB643B500E2DD12 /* Documentation.docc */; };
 		383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */; };
 		385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 385CD4332AB608340004A323 /* CodeMasterSymbols */; };
+		386C4BE02AC701FF00405697 /* CodeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C4BDF2AC701FF00405697 /* CodeFile.swift */; };
+		386C4BE22AC7023500405697 /* CodeFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C4BE12AC7023500405697 /* CodeFileView.swift */; };
+		386C4BE42AC7028300405697 /* WindowCodeFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C4BE32AC7028300405697 /* WindowCodeFileView.swift */; };
+		386C4BE62AC7029E00405697 /* ImageFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C4BE52AC7029E00405697 /* ImageFileView.swift */; };
+		386C4BE82AC7033E00405697 /* OtherFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C4BE72AC7033E00405697 /* OtherFileView.swift */; };
 		387989482ABF6E4400A4B178 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387989472ABF6E4400A4B178 /* Bookmark.swift */; };
 		3881EB3C2ABEF340002C09EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3881EB3B2ABEF340002C09EA /* Info.plist */; };
 		3881EB3F2ABEF591002C09EA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 3881EB3E2ABEF591002C09EA /* Sparkle */; };
@@ -103,6 +108,11 @@
 		3833AB992AB77D2000D806C6 /* ShellClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellClient.swift; sourceTree = "<group>"; };
 		3835278F2AB643B500E2DD12 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		383527912AB644EC00E2DD12 /* TerminalEmulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalEmulatorView.swift; sourceTree = "<group>"; };
+		386C4BDF2AC701FF00405697 /* CodeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFile.swift; sourceTree = "<group>"; };
+		386C4BE12AC7023500405697 /* CodeFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFileView.swift; sourceTree = "<group>"; };
+		386C4BE32AC7028300405697 /* WindowCodeFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCodeFileView.swift; sourceTree = "<group>"; };
+		386C4BE52AC7029E00405697 /* ImageFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFileView.swift; sourceTree = "<group>"; };
+		386C4BE72AC7033E00405697 /* OtherFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFileView.swift; sourceTree = "<group>"; };
 		387989472ABF6E4400A4B178 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
 		3881EB3B2ABEF340002C09EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3881EB412ABEF8FA002C09EA /* SoftwareUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareUpdater.swift; sourceTree = "<group>"; };
@@ -242,6 +252,7 @@
 		3835276F2AB62D0800E2DD12 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				386C4BDC2AC701CC00405697 /* CodeFile */,
 				387989462ABF1F4000A4B178 /* Bookmark */,
 				3881EB402ABEF8D6002C09EA /* Settings */,
 				3835278A2AB642D700E2DD12 /* WindowCommands */,
@@ -492,6 +503,34 @@
 				38CF95632ABB6BB800BE6BA2 /* IDETemplateMacros.plist */,
 			);
 			path = Configs;
+			sourceTree = "<group>";
+		};
+		386C4BDC2AC701CC00405697 /* CodeFile */ = {
+			isa = PBXGroup;
+			children = (
+				386C4BDE2AC701E700405697 /* Other */,
+				386C4BDD2AC701DC00405697 /* Image */,
+				386C4BDF2AC701FF00405697 /* CodeFile.swift */,
+				386C4BE12AC7023500405697 /* CodeFileView.swift */,
+				386C4BE32AC7028300405697 /* WindowCodeFileView.swift */,
+			);
+			path = CodeFile;
+			sourceTree = "<group>";
+		};
+		386C4BDD2AC701DC00405697 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				386C4BE52AC7029E00405697 /* ImageFileView.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		386C4BDE2AC701E700405697 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				386C4BE72AC7033E00405697 /* OtherFileView.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		387989462ABF1F4000A4B178 /* Bookmark */ = {
@@ -808,18 +847,23 @@
 				38BD3A2D2AC5E95C00C125E5 /* World.swift in Sources */,
 				3896C82F2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift in Sources */,
 				38F09F3A2AB5F413005AD507 /* ContentView.swift in Sources */,
+				386C4BE42AC7028300405697 /* WindowCodeFileView.swift in Sources */,
 				38BD3A2B2AC5E92D00C125E5 /* SceneID.swift in Sources */,
 				3881EB462ABEFA39002C09EA /* MainCommands.swift in Sources */,
+				386C4BE02AC701FF00405697 /* CodeFile.swift in Sources */,
 				3881EB422ABEF8FA002C09EA /* SoftwareUpdater.swift in Sources */,
 				38B1D0172AB774D10088A744 /* WelcomeWindowView.swift in Sources */,
 				387989482ABF6E4400A4B178 /* Bookmark.swift in Sources */,
 				383527922AB644EC00E2DD12 /* TerminalEmulatorView.swift in Sources */,
 				383527902AB643B500E2DD12 /* Documentation.docc in Sources */,
+				386C4BE22AC7023500405697 /* CodeFileView.swift in Sources */,
+				386C4BE82AC7033E00405697 /* OtherFileView.swift in Sources */,
 				38BD3A292AC5E84800C125E5 /* AppDelegate.swift in Sources */,
 				3833AB9A2AB77D2000D806C6 /* ShellClient.swift in Sources */,
 				38F09F382AB5F413005AD507 /* CodeMasterApp.swift in Sources */,
 				38B1D01F2AB7752E0088A744 /* RecentProjectItem.swift in Sources */,
 				38B1D0152AB774BB0088A744 /* WelcomeWindow.swift in Sources */,
+				386C4BE62AC7029E00405697 /* ImageFileView.swift in Sources */,
 				38B1D0192AB774DC0088A744 /* WelcomeView.swift in Sources */,
 				38B1D01B2AB775030088A744 /* WelcomeActionView.swift in Sources */,
 				38B1D01D2AB7751E0088A744 /* RecentProjectsListView.swift in Sources */,
