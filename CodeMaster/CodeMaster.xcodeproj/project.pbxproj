@@ -27,6 +27,7 @@
 		386C4BE42AC7028300405697 /* WindowCodeFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C4BE32AC7028300405697 /* WindowCodeFileView.swift */; };
 		386C4BE62AC7029E00405697 /* ImageFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C4BE52AC7029E00405697 /* ImageFileView.swift */; };
 		386C4BE82AC7033E00405697 /* OtherFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C4BE72AC7033E00405697 /* OtherFileView.swift */; };
+		386C4BEB2AC7055700405697 /* CodeMasterTextView in Frameworks */ = {isa = PBXBuildFile; productRef = 386C4BEA2AC7055700405697 /* CodeMasterTextView */; };
 		387989482ABF6E4400A4B178 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387989472ABF6E4400A4B178 /* Bookmark.swift */; };
 		3881EB3C2ABEF340002C09EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3881EB3B2ABEF340002C09EA /* Info.plist */; };
 		3881EB3F2ABEF591002C09EA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 3881EB3E2ABEF591002C09EA /* Sparkle */; };
@@ -159,6 +160,7 @@
 				3833ABA02AB77E2400D806C6 /* InlineSnapshotTesting in Frameworks */,
 				383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */,
 				38DD39892AC4AB4800EE1214 /* CMLLDB in Frameworks */,
+				386C4BEB2AC7055700405697 /* CodeMasterTextView in Frameworks */,
 				385CD4342AB608340004A323 /* CodeMasterSymbols in Frameworks */,
 				3881EB3F2ABEF591002C09EA /* Sparkle in Frameworks */,
 				38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */,
@@ -692,6 +694,7 @@
 				3881EB3E2ABEF591002C09EA /* Sparkle */,
 				38EF62732ABEFF2A006A3D56 /* CMLiveCollab */,
 				38DD39882AC4AB4800EE1214 /* CMLLDB */,
+				386C4BEA2AC7055700405697 /* CodeMasterTextView */,
 			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
@@ -779,6 +782,7 @@
 				3881EB3D2ABEF591002C09EA /* XCRemoteSwiftPackageReference "Sparkle" */,
 				38EF62722ABEFF2A006A3D56 /* XCRemoteSwiftPackageReference "CMLiveCollab" */,
 				38DD39872AC4AB4800EE1214 /* XCRemoteSwiftPackageReference "CMLLDB" */,
+				386C4BE92AC7055700405697 /* XCRemoteSwiftPackageReference "CodeMasterTextView" */,
 			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
@@ -1637,6 +1641,14 @@
 				kind = branch;
 			};
 		};
+		386C4BE92AC7055700405697 /* XCRemoteSwiftPackageReference "CodeMasterTextView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeMasterApp/CodeMasterTextView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		3881EB3D2ABEF591002C09EA /* XCRemoteSwiftPackageReference "Sparkle" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sparkle-project/Sparkle";
@@ -1714,6 +1726,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 385CD4322AB608340004A323 /* XCRemoteSwiftPackageReference "CodeMasterSymbols" */;
 			productName = CodeMasterSymbols;
+		};
+		386C4BEA2AC7055700405697 /* CodeMasterTextView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 386C4BE92AC7055700405697 /* XCRemoteSwiftPackageReference "CodeMasterTextView" */;
+			productName = CodeMasterTextView;
 		};
 		3881EB3E2ABEF591002C09EA /* Sparkle */ = {
 			isa = XCSwiftPackageProductDependency;

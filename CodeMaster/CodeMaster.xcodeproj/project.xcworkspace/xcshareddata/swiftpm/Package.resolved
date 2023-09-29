@@ -46,6 +46,15 @@
       }
     },
     {
+      "identity" : "codemastertextview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CodeMasterApp/CodeMasterTextView",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c3b0ab001398aeaaf2f132a932ab1bdfce256837"
+      }
+    },
+    {
       "identity" : "glob",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Bouke/Glob/",
