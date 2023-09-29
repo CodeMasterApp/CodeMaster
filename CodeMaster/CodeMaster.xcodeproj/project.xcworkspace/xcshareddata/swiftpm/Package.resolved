@@ -24,7 +24,7 @@
       "location" : "https://github.com/CodeMasterApp/CMLLDB",
       "state" : {
         "branch" : "main",
-        "revision" : "c58cf9fe934eb7d0d8a4852e2786deb27bcc4754"
+        "revision" : "76678263d87bc57732dafb662d95cce3b4458ab3"
       }
     },
     {
@@ -51,7 +51,7 @@
       "location" : "https://github.com/CodeMasterApp/CodeMasterTextView",
       "state" : {
         "branch" : "main",
-        "revision" : "c3b0ab001398aeaaf2f132a932ab1bdfce256837"
+        "revision" : "ec5eee5e00d1a88f1bdb9eba8112ee47bf35af65"
       }
     },
     {
@@ -64,12 +64,39 @@
       }
     },
     {
+      "identity" : "mainoffender",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mattmassicotte/MainOffender",
+      "state" : {
+        "revision" : "343cc3797618c29b48b037b4e2beea0664e75315",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "rearrange",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChimeHQ/Rearrange",
+      "state" : {
+        "revision" : "0fb658e721c68495f6340c211cc6d4719e6b52d8",
+        "version" : "1.6.0"
+      }
+    },
+    {
       "identity" : "sparkle",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sparkle-project/Sparkle",
       "state" : {
         "revision" : "f0ceaf5cc9f3f23daa0ccb6dcebd79fc96ccc7d9",
         "version" : "2.5.0"
+      }
+    },
+    {
+      "identity" : "sttextview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/STTextView.git",
+      "state" : {
+        "revision" : "1046965bd62dc05cf17beb4b4e901cdae851395e",
+        "version" : "0.8.7"
       }
     },
     {
@@ -91,6 +118,15 @@
       }
     },
     {
+      "identity" : "swiftlintplugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lukepistrol/SwiftLintPlugin",
+      "state" : {
+        "revision" : "ea918d6d5988407b24c2efad7722560752b1638a",
+        "version" : "0.53.0"
+      }
+    },
+    {
       "identity" : "swiftterm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/migueldeicaza/SwiftTerm.git",
@@ -106,6 +142,24 @@
       "state" : {
         "revision" : "adbebf5d7df325f3d7bf07dc832e5e162a9003f5",
         "version" : "2.1.1"
+      }
+    },
+    {
+      "identity" : "textformation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChimeHQ/TextFormation",
+      "state" : {
+        "revision" : "b4987856bc860643ac2c9cdbc7d5f3e9ade68377",
+        "version" : "0.8.1"
+      }
+    },
+    {
+      "identity" : "textstory",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChimeHQ/TextStory",
+      "state" : {
+        "revision" : "8883fa739aa213e70e6cb109bfbf0a0b551e4cb5",
+        "version" : "0.8.0"
       }
     }
   ],
