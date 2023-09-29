@@ -33,6 +33,7 @@
 		3881EB3F2ABEF591002C09EA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 3881EB3E2ABEF591002C09EA /* Sparkle */; };
 		3881EB422ABEF8FA002C09EA /* SoftwareUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881EB412ABEF8FA002C09EA /* SoftwareUpdater.swift */; };
 		3881EB462ABEFA39002C09EA /* MainCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881EB452ABEFA39002C09EA /* MainCommands.swift */; };
+		388F65A12AC746E8009A7EBE /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 388F65A02AC746E8009A7EBE /* AlertToast */; };
 		3896C82F2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3896C82E2AB8CBFC00C348AC /* TerminalEmulatorView+Coordinator.swift */; };
 		38B1D00F2AB772F30088A744 /* WindowManagement in Frameworks */ = {isa = PBXBuildFile; productRef = 38B1D00E2AB772F30088A744 /* WindowManagement */; };
 		38B1D0122AB773750088A744 /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 38B1D0112AB773750088A744 /* AnyCodable */; };
@@ -156,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				383527682AB62AE200E2DD12 /* SwiftTermFuzz in Frameworks */,
+				388F65A12AC746E8009A7EBE /* AlertToast in Frameworks */,
 				3833AB9D2AB77DA200D806C6 /* Glob in Frameworks */,
 				3833ABA02AB77E2400D806C6 /* InlineSnapshotTesting in Frameworks */,
 				383527662AB62AE200E2DD12 /* SwiftTerm in Frameworks */,
@@ -695,6 +697,7 @@
 				38EF62732ABEFF2A006A3D56 /* CMLiveCollab */,
 				38DD39882AC4AB4800EE1214 /* CMLLDB */,
 				386C4BEA2AC7055700405697 /* CodeMasterTextView */,
+				388F65A02AC746E8009A7EBE /* AlertToast */,
 			);
 			productName = CodeMaster;
 			productReference = 38F09F342AB5F413005AD507 /* CodeMaster.app */;
@@ -783,6 +786,7 @@
 				38EF62722ABEFF2A006A3D56 /* XCRemoteSwiftPackageReference "CMLiveCollab" */,
 				38DD39872AC4AB4800EE1214 /* XCRemoteSwiftPackageReference "CMLLDB" */,
 				386C4BE92AC7055700405697 /* XCRemoteSwiftPackageReference "CodeMasterTextView" */,
+				388F659F2AC746E8009A7EBE /* XCRemoteSwiftPackageReference "AlertToast" */,
 			);
 			productRefGroup = 38F09F352AB5F413005AD507 /* Products */;
 			projectDirPath = "";
@@ -1657,6 +1661,14 @@
 				minimumVersion = 2.5.0;
 			};
 		};
+		388F659F2AC746E8009A7EBE /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
 		38B1D00D2AB772F30088A744 /* XCRemoteSwiftPackageReference "SwiftUI-WindowManagement" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Wouter01/SwiftUI-WindowManagement/";
@@ -1736,6 +1748,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3881EB3D2ABEF591002C09EA /* XCRemoteSwiftPackageReference "Sparkle" */;
 			productName = Sparkle;
+		};
+		388F65A02AC746E8009A7EBE /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 388F659F2AC746E8009A7EBE /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
 		};
 		38B1D00E2AB772F30088A744 /* WindowManagement */ = {
 			isa = XCSwiftPackageProductDependency;
