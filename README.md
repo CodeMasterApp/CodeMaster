@@ -23,6 +23,7 @@ CodeMaster is a code editor built by the community, for the community, written e
 ## Related Repositories
 
 <table>
+  <tr>
     <td align="center">
       <a href="https://github.com/CodeMasterApp/CodeMasterCLI">
         <img src="CodeMaster/CodeMaster/Assets.xcassets/AppIcon.appiconset/Flare.png" height="128">
@@ -48,6 +49,15 @@ CodeMaster is a code editor built by the community, for the community, written e
       <a href="https://github.com/CodeMasterApp/CMRaycast-Extension">
         <img src="https://github.com/CodeMasterApp/CMRaycastIntegration/blob/main/images/store-logo.png" height="128">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;CM&nbsp;RaycastExtension&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <!-- clt -->
+    <td align="center">
+      <a href="https://github.com/CodeMasterApp/CommandLineTools">
+        <img src="https://github.com/CodeMasterApp/CommandLineTools/blob/main/img/CMT-Installer-Icon.png" height="128">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;CM&nbsp;CommandLineTools&nbsp;&nbsp;&nbsp;&nbsp;</p>
       </a>
     </td>
   </tr>
